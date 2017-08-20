@@ -2,16 +2,16 @@
 
 Originally developed to work with an arduino using the StandardFirmata library as detailed on http://playground.arduino.cc/Interfacing/Processing
 
-To use it with an arduino, set up an Arduino object as described above, and assign the pin data to the rawData variable in the draw() loop. 
+To use it with an arduino, set up an Arduino object as described in the link above, and assign the pin data to the rawData variable in the draw() loop. 
 `rawData = myArduino.analogRead(0);`
 
 Using the Smoother class requires the following:
 
-1. initializing the object. 
+1. calling the object. 
 
     `Smoother foo;`
 
-2. instantiating the object in the `setup()` function 
+2. initializing the object in the `setup()` function 
 
     `foo = new Smoother(resolution);`
 
