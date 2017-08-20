@@ -8,12 +8,25 @@ To use it with an arduino, set up an Arduino object as described above, and assi
 Using the Smoother class requires the following:
 
 1. initializing the object. 
-  `Smoother foo;`
+
+    `Smoother foo;`
+
 2. instantiating the object in the `setup()` function 
-  `foo = new Smoother(resolution);`
+
+    `foo = new Smoother(resolution);`
+
 3. setting your data source in the `draw()` loop 
-  `rawData = DATA_SOURCE`
+
+    `rawData = DATA_SOURCE`
+
 4. to smooth your data, use the member function `average(rawData)`
-  `smoothedValue = foo.average(rawData);`
+
+    `smoothedValue = foo.average(rawData);`
    
 Note: The example data in this demo is randomized data between 0-1000. The smoothed data should appear to waver around the midpoint (500).
+
+------
+
+## Future Development
+
+* add other ways to smooth data
