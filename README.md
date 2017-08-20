@@ -19,7 +19,7 @@ Using the Smoother class requires the following:
 
     `rawData = DATA_SOURCE`
 
-4. to smooth your data, use the member function `average(rawData)`
+4. to smooth your data, use the `average(rawData)` method
 
     `smoothedValue = foo.average(rawData);`
    

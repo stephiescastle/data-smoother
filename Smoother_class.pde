@@ -14,7 +14,7 @@
      Ex: foo = new Smoother(resolution);
   3. setting your data source in the draw() loop
      Ex: rawData = DATA SOURCE
-  4. to smooth your data, use the member function average(rawData)
+  4. to smooth your data, use the average(rawData) method
      Ex smoothedValue = foo.average(rawData);
      
   Note: The example data in this demo is randomized data between 0-1000. 

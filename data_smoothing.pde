@@ -1,4 +1,4 @@
-// initialize smoother object
+// Smoother object named foo
 Smoother foo;
 
 int rawData;
@@ -6,7 +6,7 @@ int smoothedValue;
 
 void setup() {
   
-  // instantiate smoother and set resolution
+  // initialize smoother object and set resolution
   foo = new Smoother(40);  
   
 }
