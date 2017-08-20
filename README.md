@@ -29,4 +29,4 @@ Note: The example data in this demo is randomized data between 0-1000. The smoot
 
 ## Future Development
 
-* add other ways to smooth data
+* add other data smoothing methods
