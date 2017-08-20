@@ -1,6 +1,6 @@
 # Data Smoothing in Processing
 
-Originally developed to work with the arduino using the StandardFirmata library as detailed on http://playground.arduino.cc/Interfacing/Processing
+Originally developed to work with arduino using the StandardFirmata library as detailed on http://playground.arduino.cc/Interfacing/Processing
 
 To use it with an arduino, set up an Arduino object as described above, and assign the pin data to the rawData variable in the draw() loop. 
 `rawData = myArduino.analogRead(0);`
